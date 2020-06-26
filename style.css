@@ -1,0 +1,135 @@
+.calci{
+    border: 3px solid black;
+    margin: auto;
+    width: 335px;
+    height: 520px;
+    border-radius: 10px;
+    background-color: black;
+}
+.Rs{
+    border-radius: 15px;
+    height: 60px;
+    margin: 10px 20px;
+    width: 85%;
+    font-size: 30px;
+    outline: 0;
+}
+.bttn{
+    width: 50px;
+    height: 50px;
+    margin: 15px;
+    float: left;
+    border-width: 0;
+    border-radius: 25px;
+    font-size: 20px;
+    background-color: #4CB1F7;
+    font-weight: bold;
+     outline: 0;
+}
+.opt1{
+    background-color:#F27E63;
+    width: 50px;
+    height: 50px;
+    margin: 15px;
+    float: left;
+    border-width: 0;
+    border-radius: 50%;
+    font-weight: bold;
+    font-size: 20px;
+    outline: 0;    
+}
+.opt2{
+    background-color:#D95284;
+    width: 50px;
+    height: 50px;
+    margin: 15px;
+    float: left;
+    border-width: 0;
+    border-radius: 50%;
+    font-weight: bold;
+    font-size: 20px;
+    outline: 0;
+}
+.opt3{
+    background-color:#21EBD9;
+    width: 50px;
+    height: 50px;
+    margin: 15px;
+    float: left;
+    border-width: 0;
+    border-radius: 50%;
+    font-weight: bold;
+    font-size: 20px;
+    outline: 0;
+}
+.opt4{
+    background-color: #E7E84C;
+    width: 50px;
+    height: 50px;
+    margin: 15px;
+    float: left;
+    border-width: 0;
+    border-radius: 50%;
+    font-weight: bold;
+    font-size: 20px;
+    outline: 0;
+}
+
+.opt5{
+    background-color: #03FF87;
+    width: 50px;
+    height: 50px;
+    margin: 15px;
+    float: left;
+    border-width: 0;
+    border-radius: 50%;
+    font-weight: bold;
+    font-size: 20px;
+    outline: 0;
+}
+.Operator1{
+    width: 50px;
+    height: 50px;
+    margin: 15px;
+    float: left;
+    border-width: 0;
+    border-radius: 25px;
+    font-size: 20px;
+    background-color:#A6ABAB;
+    font-weight: bold;
+    outline: 0;
+
+}
+.Operator2{
+    width: 50px;
+    height: 50px;
+    margin: 15px;
+    float: left;
+    border-width: 0;
+    border-radius: 25px;
+    font-size: 20px;
+    background-color:#A6ABAB;
+    font-weight: bold;
+    outline: 0;
+}
+.Operator3{
+    width: 50px;
+    height: 50px;
+    margin: 15px;
+    float: left;
+    border-width: 0;
+    border-radius: 25px;
+    font-size: 20px;
+    background-color:#A6ABAB;
+    font-weight: bold;
+    outline: 0;
+}
+
+button:hover{
+    background-color: lightgray;
+}
+
+.bck{
+    width: 25px;
+    margin-bottom: -5px;
+}

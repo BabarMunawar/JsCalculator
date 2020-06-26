@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+<div class="calci">
+    <div class="cal">
+        <input class="Rs" type="text" id="result">
+    </div>
+    <table>
+        <tr>
+        <td><button class="Operator1" onclick="clearResult()">C</button></td>
+        <td><button class="Operator2" onclick="percent('%')">%</button></td>
+        <td><button class="Operator3" onclick="backSpace()"><i><img class="bck" src="clear-symbol.png" alt=""></i></button></button></td>
+        <td><button class="opt1" onclick="getNumber('/')">/</button></td>
+
+        </tr>
+        <tr>
+        <td><button type="button" class="bttn" onclick="getNumber('7')">7</button></td>
+        <td><button class="bttn" onclick="getNumber('8')">8</button></td>
+        <td><button class="bttn" onclick="getNumber('9')">9</button></td>
+        <td><button class="opt2" onclick="getNumber('*')">X</button></td>
+        </tr>
+        <tr>
+        <td><button class="bttn" onclick="getNumber('4')">4</button></td>
+        <td><button class="bttn" onclick="getNumber('5')">5</button></td>
+        <td><button class="bttn" onclick="getNumber('6')">6</button></td>
+        <td><button class="opt3" onclick="getNumber('-')">-</button></td>
+        </tr>
+        <tr>
+        <td><button class="bttn" onclick="getNumber('1')">1</button></td>
+        <td><button class="bttn" onclick="getNumber('2')">2</button></td>
+        <td><button class="bttn" onclick="getNumber('3')">3</button></td>
+        <td><button class="opt4" onclick="getNumber('+')">+</button></td>
+        </tr>
+        <tr>
+        <td><button class="bttn" onclick="getNumber('(')">(</button></td>
+        <td><button class="bttn" onclick="getNumber(')')">)</button></td>
+        <td><button class="bttn" onclick="getNumber('0')">0</button></td>
+        <td><button class="opt5" onclick="getResult()">=</button></td>
+        </tr>
+    </table>
+</div>
+
+
+
+
+
+
+
+</body>
+<script src="app.js"></script>
+</html>
